@@ -14,7 +14,7 @@ function NoMatch() {
   return 'No match';
 }
 
-function LocationDisplay() {
+export function LocationDisplay() {
   const location = useLocation();
 
   return <p data-testid="location-display">{location.pathname}</p>;
